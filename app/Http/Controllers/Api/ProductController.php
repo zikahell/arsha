@@ -59,7 +59,7 @@ class ProductController extends Controller
         'image' => $imageName,
         'client' => $request->client
       ]);
-      return $this->apiResponse(1,'Products created',200);
+      return $this->apiResponse(1,'Products created',200);   
 
     }
     else
